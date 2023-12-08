@@ -56,6 +56,8 @@ while (true)
                 if ((cartasJugador > cartasDealer) && cartasJugador <= 21)
                 {
                     Console.WriteLine("Felicitaciones le has ganado a la casa");
+                    Console.WriteLine($"{nombre}, tus cartas suman: ${cartasJugador}");
+                    Console.WriteLine($"Las cartas del dealer suman: ${cartasDealer}");
                 }
                 else if (cartasJugador > 21)
                 {
