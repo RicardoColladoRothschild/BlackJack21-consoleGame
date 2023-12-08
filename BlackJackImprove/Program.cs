@@ -17,7 +17,8 @@ while (true) {
     Console.WriteLine("**************************************************************");
     for (int i = 0; i < coins; i ++) {
 
-        Console.WriteLine("¿Cual juego deseas jugar");
+        Console.WriteLine("¿Cual juego deseas jugar?");
+        Console.WriteLine("1) BlackJack 21");
     
     }
 
