@@ -3,7 +3,7 @@ int cartasJugador = 0;
 int cartasDealer = 0;
 int card_number = 0;
 int coins = 0;
-int option = 1;
+int option = 0;
 string? nombre = "";
 string? controlOtherCard = "";
 Random randomly = new Random();
@@ -39,7 +39,7 @@ while (true)
                 Console.WriteLine($"Bienvenido/a {nombre}, ¿deseas tomar una carta?");
                 do
                 {
-                    card_number = randomly.Next(1, 2);
+                    card_number = randomly.Next(1, 12);
                     Console.WriteLine($"Su nueva carta es: {card_number}");
                     cartasJugador += card_number;
                     Console.WriteLine("¿Deseas Tomar otra carta?");
